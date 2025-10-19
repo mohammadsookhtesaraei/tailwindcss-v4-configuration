@@ -1,12 +1,17 @@
-## Tailwind 4.1.14
+# Tailwind CSS v4.1.14 Configuration
 
-<!-- post css installation --> 
+A minimal setup for **Tailwind CSS v4.1.14** with **PostCSS**, **Prettier**, and production optimizations.
 
-# npm install tailwindcss @tailwindcss/postcss postcss
-# npm i postcss-cli
+---
 
-<!-- dev dep -->
-# npm install -D prettier prettier-plugin-tailwindcss
-# npm i -D cross-env
-# npm i -D cssnano
+## Installation
 
+```bash
+# Tailwind & PostCSS
+npm install tailwindcss @tailwindcss/postcss postcss
+npm install postcss-cli
+
+# Development dependencies
+npm install -D prettier prettier-plugin-tailwindcss
+npm install -D cross-env
+npm install -D cssnano
